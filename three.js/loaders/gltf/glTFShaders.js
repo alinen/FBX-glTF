@@ -137,7 +137,7 @@ THREE.glTFShader.prototype.update = function(scene, camera) {
 	                break;
 
 	            default :
-	                throw new Error("Unhandled shader semantic" + semantic);
+	                //throw new Error("Unhandled shader semantic" + semantic);
 	                break;
 	        }
         }

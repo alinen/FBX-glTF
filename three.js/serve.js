@@ -47,7 +47,7 @@ app.configure (function () {
 }) ;
 
 // get optional port specification
-var port = 80;
+var port = 8050;
 if ( process.argv.length >= 3 ) {
 	try {
 		port =parseInt (process.argv [2]) ;
