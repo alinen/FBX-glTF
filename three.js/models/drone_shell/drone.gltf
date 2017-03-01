@@ -1,0 +1,366 @@
+{
+	"accessors": {
+		"Mesh_44_Colors0": {
+			"bufferView": "Mesh_44_Colors0_Buffer",
+			"byteOffset": 0,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 34096,
+			"max": [
+				1,
+				1,
+				1,
+				1
+			],
+			"min": [
+				0,
+				0,
+				0,
+				0
+			],
+			"name": "Mesh_44_Colors0",
+			"type": "VEC4"
+		},
+		"Mesh_44_Normals": {
+			"bufferView": "Mesh_44_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 17048,
+			"max": [
+				1,
+				0.999999,
+				0.999083
+			],
+			"min": [
+				-0.99735,
+				-0.999998,
+				-0.999083
+			],
+			"name": "Mesh_44_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_44_Polygons": {
+			"bufferView": "Mesh_44_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 101934,
+			"name": "Mesh_44_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_44_Positions": {
+			"bufferView": "Mesh_44_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 17048,
+			"max": [
+				228.968,
+				82.3363,
+				269.646
+			],
+			"min": [
+				-145.128,
+				3.79224,
+				-102.813
+			],
+			"name": "Mesh_44_Positions",
+			"type": "VEC3"
+		}
+	},
+	"animations": {
+	},
+	"asset": {
+		"copyright": "",
+		"generator": "FBX GLTF Exporter v1.0",
+		"premultipliedAlpha": 0,
+		"profile": {
+			"api": "WebGL",
+			"version": "1.0.3"
+		},
+		"version": "1.0"
+	},
+	"bufferViews": {
+		"Mesh_44_Colors0_Buffer": {
+			"buffer": "drone",
+			"byteLength": 545536,
+			"byteOffset": 409152,
+			"name": "Mesh_44_Colors0_Buffer",
+			"target": 34962
+		},
+		"Mesh_44_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 204576,
+			"byteOffset": 204576,
+			"name": "Mesh_44_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_44_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 203868,
+			"byteOffset": 954688,
+			"name": "Mesh_44_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_44_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 204576,
+			"byteOffset": 0,
+			"name": "Mesh_44_Positions_Buffer",
+			"target": 34962
+		}
+	},
+	"buffers": {
+		"drone": {
+			"byteLength": 1158556,
+			"name": "drone",
+			"type": "arraybuffer",
+			"uri": "drone.bin"
+		}
+	},
+	"cameras": {
+	},
+	"images": {
+	},
+	"lights": {
+	},
+	"materials": {
+		"white": {
+			"name": "white",
+			"technique": "white_technique_0",
+			"values": {
+				"ambient": [
+					0.2,
+					0.2,
+					0.2,
+					1
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8,
+					1
+				],
+				"emission": [
+					0,
+					0,
+					0,
+					1
+				],
+				"reflective": [
+					0,
+					0,
+					0,
+					1
+				],
+				"reflectivity": 1,
+				"shininess": 20,
+				"specular": [
+					0.2,
+					0.2,
+					0.2,
+					1
+				],
+				"transparency": 1,
+				"transparent": [
+					0,
+					0,
+					0,
+					1
+				]
+			}
+		}
+	},
+	"meshes": {
+		"Mesh_44": {
+			"name": "Mesh_44",
+			"primitives": [
+				{
+					"attributes": {
+						"COLOR_0": "Mesh_44_Colors0",
+						"NORMAL": "Mesh_44_Normals",
+						"POSITION": "Mesh_44_Positions"
+					},
+					"indices": "Mesh_44_Polygons",
+					"material": "white",
+					"mode": 4
+				}
+			]
+		}
+	},
+	"nodes": {
+		"RootNode_10": {
+			"children": [
+				"polySurface10_40"
+			],
+			"matrix": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"name": "RootNode_10"
+		},
+		"polySurface10_40": {
+			"children": [
+			],
+			"matrix": [
+				0.01,
+				0,
+				0,
+				0,
+				0,
+				0.01,
+				0,
+				0,
+				0,
+				0,
+				0.01,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"meshes": [
+				"Mesh_44"
+			],
+			"name": "polySurface10_40"
+		}
+	},
+	"programs": {
+		"program_0": {
+			"attributes": [
+				"a_normal",
+				"a_position"
+			],
+			"fragmentShader": "program_0FS",
+			"name": "program_0",
+			"vertexShader": "program_0VS"
+		}
+	},
+	"samplers": {
+	},
+	"scene": "drone",
+	"scenes": {
+		"drone": {
+			"nodes": [
+				"RootNode_10"
+			]
+		}
+	},
+	"shaders": {
+		"program_0FS": {
+			"type": 35632,
+			"uri": "program_0FS.glsl"
+		},
+		"program_0VS": {
+			"type": 35633,
+			"uri": "program_0VS.glsl"
+		}
+	},
+	"skins": {
+	},
+	"techniques": {
+		"white_technique_0": {
+			"attributes": {
+				"a_normal": "normal",
+				"a_position": "position"
+			},
+			"extras": {
+				"doubleSided": 0,
+				"lightingModel": "Phong"
+			},
+			"parameters": {
+				"ambient": {
+					"type": 35666
+				},
+				"color0": {
+					"semantic": "COLOR_0",
+					"type": 35666
+				},
+				"diffuse": {
+					"type": 35666
+				},
+				"emission": {
+					"type": 35666
+				},
+				"modelViewMatrix": {
+					"semantic": "MODELVIEW",
+					"type": 35676
+				},
+				"normal": {
+					"semantic": "NORMAL",
+					"type": 35665
+				},
+				"normalMatrix": {
+					"semantic": "MODELVIEWINVERSETRANSPOSE",
+					"type": 35675
+				},
+				"position": {
+					"semantic": "POSITION",
+					"type": 35665
+				},
+				"projectionMatrix": {
+					"semantic": "PROJECTION",
+					"type": 35676
+				},
+				"reflective": {
+					"type": 35666
+				},
+				"reflectivity": {
+					"type": 5126
+				},
+				"shininess": {
+					"type": 5126
+				},
+				"specular": {
+					"type": 35666
+				},
+				"transparency": {
+					"type": 5126
+				},
+				"transparent": {
+					"type": 35666
+				}
+			},
+			"program": "program_0",
+			"states": {
+				"enable": [
+					2884,
+					2929
+				]
+			},
+			"uniforms": {
+				"u_ambient": "ambient",
+				"u_color0": "color0",
+				"u_diffuse": "diffuse",
+				"u_emission": "emission",
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_reflective": "reflective",
+				"u_reflectivity": "reflectivity",
+				"u_shininess": "shininess",
+				"u_specular": "specular",
+				"u_transparency": "transparency",
+				"u_transparent": "transparent"
+			}
+		}
+	},
+	"textures": {
+	}
+}
