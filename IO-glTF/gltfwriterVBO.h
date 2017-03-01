@@ -30,7 +30,7 @@ namespace _IOglTF_NS_ {
 	int indexV =-1 ; \
 	T V ; \
 	if ( layerElt ) { \
-		indexV =(layerElt->GetReferenceMode () == FbxLayerElement::eDirect ? index : layerElt->GetIndexArray () [index]) ; \
+		indexV =(layerElt->GetMappingMode () == FbxLayerElement::eByPolygonVertex ? index : layerElt->GetIndexArray () [index]) ; \
 		V =layerElt->GetDirectArray ().GetAt (indexV) ; \
 		lambda (V) ; \
 	}

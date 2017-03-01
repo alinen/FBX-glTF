@@ -219,6 +219,14 @@ void gltfwriterVBO::GetLayerElements (bool bInGeometry /*=true*/) {
 	FbxGeometryElementBinormal *pLayerBinormals =elementBinormals () ; // Binormals
 	FbxLayerElementVertexColor *pLayerElementColors =elementVcolors () ; // Vertex Color
 
+    // ASN DEBUG
+    FbxLayerElement::EReferenceMode mode = pLayerElementNormals->GetReferenceMode ();
+    std::cout << "Reference mode: " << mode << std::endl;
+
+    // ASN DEBUG
+    FbxLayerElement::EMappingMode mmode = pLayerElementNormals->GetMappingMode();
+    std::cout << "Mapping mode: " << mmode << std::endl;
+
 	int nb =_pMesh->GetPolygonCount () ;
 	for ( int i =0, index =0 ; i < nb ; i++ ) {
 		int count =_pMesh->GetPolygonSize (i) ;

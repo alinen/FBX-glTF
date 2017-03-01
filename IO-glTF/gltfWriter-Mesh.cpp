@@ -22,6 +22,7 @@
 #include "gltfWriter.h"
 #include "gltfwriterVBO.h"
 #include <string.h> // for memcmp
+#include <fstream>
 
 namespace _IOglTF_NS_ {
 
@@ -97,6 +98,15 @@ web::json::value gltfWriter::WriteMesh (FbxNode *pNode) {
 	web::json::value vertex =WriteArrayWithMinMax<FbxDouble3, float> (out_positions, pMesh->GetNode (), U("_Positions")) ;
 	MergeJsonObjects (localAccessorsAndBufferViews, vertex);
 	primitive [U("attributes")] [U("POSITION")] =web::json::value::string (GetJsonFirstKey (vertex [U("accessors")])) ;
+
+    // ASN DEBUG
+    /*
+    std::ofstream fs("output.txt");
+    for (int i = 0; i < out_positions.size(); i++)
+    {
+        fs << "(" << out_positions[i][0] << " " << out_positions[i][1] << " " << out_positions[i][2] << ") " 
+                  << out_normals[i][0] << " " << out_normals[i][1] << " " << out_normals[i][2] << ")" << std::endl;
+    }*/
 
 	if ( out_normals.size () ) {
 		utility::string_t st (U("_Normals")) ;
