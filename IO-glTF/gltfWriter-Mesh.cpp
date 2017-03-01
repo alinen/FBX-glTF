@@ -100,13 +100,13 @@ web::json::value gltfWriter::WriteMesh (FbxNode *pNode) {
 	primitive [U("attributes")] [U("POSITION")] =web::json::value::string (GetJsonFirstKey (vertex [U("accessors")])) ;
 
     // ASN DEBUG
-    /*
     std::ofstream fs("output.txt");
     for (int i = 0; i < out_positions.size(); i++)
     {
-        fs << "(" << out_positions[i][0] << " " << out_positions[i][1] << " " << out_positions[i][2] << ") " 
-                  << out_normals[i][0] << " " << out_normals[i][1] << " " << out_normals[i][2] << ")" << std::endl;
-    }*/
+        fs << "(" << out_positions[i][0] << " " << out_positions[i][1] << " " << out_positions[i][2] << ") (" 
+                  << out_normals[i][0] << " " << out_normals[i][1] << " " << out_normals[i][2] << ")" 
+                  << std::endl;
+    }
 
 	if ( out_normals.size () ) {
 		utility::string_t st (U("_Normals")) ;

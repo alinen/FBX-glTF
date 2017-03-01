@@ -26,11 +26,12 @@ namespace _IOglTF_NS_ {
 
 // Function    : GetLayerElement
 // Abstraction : From the given layer get the single element
-#define GetLayerElement(layerElt, indexV, T, V, index, lambda) \
+#define GetLayerElement(layerElt, indexV, T, V, index, vIndex, lambda) \
 	int indexV =-1 ; \
 	T V ; \
 	if ( layerElt ) { \
-		indexV =(layerElt->GetMappingMode () == FbxLayerElement::eByPolygonVertex ? index : layerElt->GetIndexArray () [index]) ; \
+        if (layerElt->GetMappingMode() == FbxLayerElement:: eByControlPoint ) indexV = vIndex; \
+		else indexV =(layerElt->GetReferenceMode () == FbxLayerElement::eDirect ? index : layerElt->GetIndexArray () [index]) ; \
 		V =layerElt->GetDirectArray ().GetAt (indexV) ; \
 		lambda (V) ; \
 	}
