@@ -1,0 +1,441 @@
+{
+	"accessors": {
+		"Mesh_45_Normals": {
+			"bufferView": "Mesh_45_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				0.463133,
+				0.987738,
+				0.99992
+			],
+			"min": [
+				-0.738073,
+				-0.607685,
+				-0.99997
+			],
+			"name": "Mesh_45_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_45_Polygons": {
+			"bufferView": "Mesh_45_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 3840,
+			"name": "Mesh_45_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_45_Positions": {
+			"bufferView": "Mesh_45_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				3.48075,
+				0.61235,
+				0.344427
+			],
+			"min": [
+				0.0344389,
+				-0.285342,
+				0.0805779
+			],
+			"name": "Mesh_45_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_47_Normals": {
+			"bufferView": "Mesh_47_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				0.463133,
+				0.987738,
+				0.99992
+			],
+			"min": [
+				-0.738073,
+				-0.607685,
+				-0.99997
+			],
+			"name": "Mesh_47_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_47_Polygons": {
+			"bufferView": "Mesh_47_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 3840,
+			"name": "Mesh_47_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_47_Positions": {
+			"bufferView": "Mesh_47_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				3.48075,
+				0.61235,
+				0.344427
+			],
+			"min": [
+				0.0344389,
+				-0.285342,
+				0.0805779
+			],
+			"name": "Mesh_47_Positions",
+			"type": "VEC3"
+		}
+	},
+	"animations": {
+	},
+	"asset": {
+		"copyright": "",
+		"generator": "FBX GLTF Exporter v1.0",
+		"premultipliedAlpha": 0,
+		"profile": {
+			"api": "WebGL",
+			"version": "1.0.3"
+		},
+		"version": "1.0"
+	},
+	"bufferViews": {
+		"Mesh_45_Normals_Buffer": {
+			"buffer": "propeller",
+			"byteLength": 30720,
+			"byteOffset": 30720,
+			"name": "Mesh_45_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_45_Polygons_Buffer": {
+			"buffer": "propeller",
+			"byteLength": 7680,
+			"byteOffset": 61440,
+			"name": "Mesh_45_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_45_Positions_Buffer": {
+			"buffer": "propeller",
+			"byteLength": 30720,
+			"byteOffset": 0,
+			"name": "Mesh_45_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_47_Normals_Buffer": {
+			"buffer": "propeller",
+			"byteLength": 30720,
+			"byteOffset": 99840,
+			"name": "Mesh_47_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_47_Polygons_Buffer": {
+			"buffer": "propeller",
+			"byteLength": 7680,
+			"byteOffset": 130560,
+			"name": "Mesh_47_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_47_Positions_Buffer": {
+			"buffer": "propeller",
+			"byteLength": 30720,
+			"byteOffset": 69120,
+			"name": "Mesh_47_Positions_Buffer",
+			"target": 34962
+		}
+	},
+	"buffers": {
+		"propeller": {
+			"byteLength": 138240,
+			"name": "propeller",
+			"type": "arraybuffer",
+			"uri": "propeller.bin"
+		}
+	},
+	"cameras": {
+	},
+	"images": {
+	},
+	"lights": {
+	},
+	"materials": {
+		"black": {
+			"name": "black",
+			"technique": "black_technique_0",
+			"values": {
+				"ambient": [
+					0.2,
+					0.2,
+					0.2,
+					1
+				],
+				"diffuse": [
+					0,
+					0,
+					0,
+					1
+				],
+				"emission": [
+					0,
+					0,
+					0,
+					1
+				],
+				"reflective": [
+					0,
+					0,
+					0,
+					1
+				],
+				"reflectivity": 1,
+				"shininess": 20,
+				"specular": [
+					0.2,
+					0.2,
+					0.2,
+					1
+				],
+				"transparency": 1,
+				"transparent": [
+					0,
+					0,
+					0,
+					1
+				]
+			}
+		}
+	},
+	"meshes": {
+		"Mesh_45": {
+			"name": "Mesh_45",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_45_Normals",
+						"POSITION": "Mesh_45_Positions"
+					},
+					"indices": "Mesh_45_Polygons",
+					"material": "black",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_47": {
+			"name": "Mesh_47",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_47_Normals",
+						"POSITION": "Mesh_47_Positions"
+					},
+					"indices": "Mesh_47_Polygons",
+					"material": "black",
+					"mode": 4
+				}
+			]
+		}
+	},
+	"nodes": {
+		"RootNode_10": {
+			"children": [
+				"Sphere.006_40",
+				"Sphere.008_41"
+			],
+			"matrix": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"name": "RootNode_10"
+		},
+		"Sphere.006_40": {
+			"children": [
+			],
+			"matrix": [
+				0.435622,
+				0.0169471,
+				-0.0215688,
+				0,
+				0.0215902,
+				-0.000132175,
+				0.43595,
+				0,
+				0.0169199,
+				-0.436155,
+				-0.000970184,
+				0,
+				2.22045e-018,
+				0.0436679,
+				0,
+				1
+			],
+			"meshes": [
+				"Mesh_45"
+			],
+			"name": "Sphere.006_40"
+		},
+		"Sphere.008_41": {
+			"children": [
+			],
+			"matrix": [
+				-0.435622,
+				-0.0169471,
+				0.0215688,
+				0,
+				-0.0215902,
+				0.000132331,
+				-0.43595,
+				0,
+				-0.0169199,
+				0.436155,
+				0.00097034,
+				0,
+				0,
+				-0.0399897,
+				6.93889e-020,
+				1
+			],
+			"meshes": [
+				"Mesh_47"
+			],
+			"name": "Sphere.008_41"
+		}
+	},
+	"programs": {
+		"program_0": {
+			"attributes": [
+				"a_normal",
+				"a_position"
+			],
+			"fragmentShader": "program_0FS",
+			"name": "program_0",
+			"vertexShader": "program_0VS"
+		}
+	},
+	"samplers": {
+	},
+	"scene": "propeller",
+	"scenes": {
+		"propeller": {
+			"nodes": [
+				"RootNode_10"
+			]
+		}
+	},
+	"shaders": {
+		"program_0FS": {
+			"type": 35632,
+			"uri": "program_0FS.glsl"
+		},
+		"program_0VS": {
+			"type": 35633,
+			"uri": "program_0VS.glsl"
+		}
+	},
+	"skins": {
+	},
+	"techniques": {
+		"black_technique_0": {
+			"attributes": {
+				"a_normal": "normal",
+				"a_position": "position"
+			},
+			"extras": {
+				"doubleSided": 0,
+				"lightingModel": "Phong"
+			},
+			"parameters": {
+				"ambient": {
+					"type": 35666
+				},
+				"diffuse": {
+					"type": 35666
+				},
+				"emission": {
+					"type": 35666
+				},
+				"modelViewMatrix": {
+					"semantic": "MODELVIEW",
+					"type": 35676
+				},
+				"normal": {
+					"semantic": "NORMAL",
+					"type": 35665
+				},
+				"normalMatrix": {
+					"semantic": "MODELVIEWINVERSETRANSPOSE",
+					"type": 35675
+				},
+				"position": {
+					"semantic": "POSITION",
+					"type": 35665
+				},
+				"projectionMatrix": {
+					"semantic": "PROJECTION",
+					"type": 35676
+				},
+				"reflective": {
+					"type": 35666
+				},
+				"reflectivity": {
+					"type": 5126
+				},
+				"shininess": {
+					"type": 5126
+				},
+				"specular": {
+					"type": 35666
+				},
+				"transparency": {
+					"type": 5126
+				},
+				"transparent": {
+					"type": 35666
+				}
+			},
+			"program": "program_0",
+			"states": {
+				"enable": [
+					2884,
+					2929
+				]
+			},
+			"uniforms": {
+				"u_ambient": "ambient",
+				"u_diffuse": "diffuse",
+				"u_emission": "emission",
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_reflective": "reflective",
+				"u_reflectivity": "reflectivity",
+				"u_shininess": "shininess",
+				"u_specular": "specular",
+				"u_transparency": "transparency",
+				"u_transparent": "transparent"
+			}
+		}
+	},
+	"textures": {
+	}
+}

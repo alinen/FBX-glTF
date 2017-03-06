@@ -1,0 +1,267 @@
+{
+	"accessors": {
+		"airplane_38_Normals": {
+			"bufferView": "airplane_38_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1335,
+			"max": [
+				1,
+				0.997986,
+				1
+			],
+			"min": [
+				-1,
+				-1,
+				-1
+			],
+			"name": "airplane_38_Normals",
+			"type": "VEC3"
+		},
+		"airplane_38_Polygons": {
+			"bufferView": "airplane_38_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 7356,
+			"name": "airplane_38_Polygons",
+			"type": "SCALAR"
+		},
+		"airplane_38_Positions": {
+			"bufferView": "airplane_38_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1335,
+			"max": [
+				757.937,
+				659.896,
+				217.46
+			],
+			"min": [
+				-757.932,
+				-627.959,
+				-82.4112
+			],
+			"name": "airplane_38_Positions",
+			"type": "VEC3"
+		}
+	},
+	"animations": {
+	},
+	"asset": {
+		"copyright": "",
+		"generator": "FBX GLTF Exporter v1.0",
+		"premultipliedAlpha": 0,
+		"profile": {
+			"api": "WebGL",
+			"version": "1.0.3"
+		},
+		"version": "1.0"
+	},
+	"bufferViews": {
+		"airplane_38_Normals_Buffer": {
+			"buffer": "airplane",
+			"byteLength": 16020,
+			"byteOffset": 16020,
+			"name": "airplane_38_Normals_Buffer",
+			"target": 34962
+		},
+		"airplane_38_Polygons_Buffer": {
+			"buffer": "airplane",
+			"byteLength": 14712,
+			"byteOffset": 32040,
+			"name": "airplane_38_Polygons_Buffer",
+			"target": 34963
+		},
+		"airplane_38_Positions_Buffer": {
+			"buffer": "airplane",
+			"byteLength": 16020,
+			"byteOffset": 0,
+			"name": "airplane_38_Positions_Buffer",
+			"target": 34962
+		}
+	},
+	"buffers": {
+		"airplane": {
+			"byteLength": 46752,
+			"name": "airplane",
+			"type": "arraybuffer",
+			"uri": "airplane.bin"
+		}
+	},
+	"cameras": {
+	},
+	"images": {
+	},
+	"lights": {
+	},
+	"materials": {
+		"defaultMaterial": {
+			"name": "defaultMaterial",
+			"technique": "defaultMaterial_technique_0",
+			"values": {
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8,
+					1
+				]
+			}
+		}
+	},
+	"meshes": {
+		"airplane_38": {
+			"name": "airplane_38",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "airplane_38_Normals",
+						"POSITION": "airplane_38_Positions"
+					},
+					"indices": "airplane_38_Polygons",
+					"material": "defaultMaterial",
+					"mode": 4
+				}
+			]
+		}
+	},
+	"nodes": {
+		"RootNode_10": {
+			"children": [
+				"airplane_37"
+			],
+			"matrix": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"name": "RootNode_10"
+		},
+		"airplane_37": {
+			"children": [
+			],
+			"matrix": [
+				0.01,
+				0,
+				0,
+				0,
+				0,
+				-1.62921e-009,
+				-0.01,
+				0,
+				0,
+				0.01,
+				-1.62921e-009,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"meshes": [
+				"airplane_38"
+			],
+			"name": "airplane_37"
+		}
+	},
+	"programs": {
+		"program_0": {
+			"attributes": [
+				"a_normal",
+				"a_position"
+			],
+			"fragmentShader": "program_0FS",
+			"name": "program_0",
+			"vertexShader": "program_0VS"
+		}
+	},
+	"samplers": {
+	},
+	"scene": "airplane",
+	"scenes": {
+		"airplane": {
+			"nodes": [
+				"RootNode_10"
+			]
+		}
+	},
+	"shaders": {
+		"program_0FS": {
+			"type": 35632,
+			"uri": "program_0FS.glsl"
+		},
+		"program_0VS": {
+			"type": 35633,
+			"uri": "program_0VS.glsl"
+		}
+	},
+	"skins": {
+	},
+	"techniques": {
+		"defaultMaterial_technique_0": {
+			"attributes": {
+				"a_normal": "normal",
+				"a_position": "position"
+			},
+			"extras": {
+				"doubleSided": 0,
+				"lightingModel": "Unknown"
+			},
+			"parameters": {
+				"diffuse": {
+					"type": 35666
+				},
+				"modelViewMatrix": {
+					"semantic": "MODELVIEW",
+					"type": 35676
+				},
+				"normal": {
+					"semantic": "NORMAL",
+					"type": 35665
+				},
+				"normalMatrix": {
+					"semantic": "MODELVIEWINVERSETRANSPOSE",
+					"type": 35675
+				},
+				"position": {
+					"semantic": "POSITION",
+					"type": 35665
+				},
+				"projectionMatrix": {
+					"semantic": "PROJECTION",
+					"type": 35676
+				}
+			},
+			"program": "program_0",
+			"states": {
+				"enable": [
+					2884,
+					2929
+				]
+			},
+			"uniforms": {
+				"u_diffuse": "diffuse",
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_projectionMatrix": "projectionMatrix"
+			}
+		}
+	},
+	"textures": {
+	}
+}

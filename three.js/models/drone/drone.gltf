@@ -1,0 +1,2457 @@
+{
+	"accessors": {
+		"Mesh_101_Colors0": {
+			"bufferView": "Mesh_101_Colors0_Buffer",
+			"byteOffset": 0,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 522,
+			"max": [
+				1,
+				1,
+				1,
+				1
+			],
+			"min": [
+				0,
+				0,
+				0,
+				0
+			],
+			"name": "Mesh_101_Colors0",
+			"type": "VEC4"
+		},
+		"Mesh_101_Normals": {
+			"bufferView": "Mesh_101_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 261,
+			"max": [
+				0.868725,
+				0,
+				0.309088
+			],
+			"min": [
+				-0.868728,
+				-0.976881,
+				0.0898999
+			],
+			"name": "Mesh_101_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_101_Polygons": {
+			"bufferView": "Mesh_101_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 1242,
+			"name": "Mesh_101_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_101_Positions": {
+			"bufferView": "Mesh_101_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 261,
+			"max": [
+				2.26609,
+				0,
+				1.73409
+			],
+			"min": [
+				-2.26609,
+				-2.1643,
+				-5.21437
+			],
+			"name": "Mesh_101_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_103_Normals": {
+			"bufferView": "Mesh_103_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				0.463133,
+				0.987738,
+				0.99992
+			],
+			"min": [
+				-0.738073,
+				-0.607685,
+				-0.99997
+			],
+			"name": "Mesh_103_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_103_Polygons": {
+			"bufferView": "Mesh_103_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 3840,
+			"name": "Mesh_103_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_103_Positions": {
+			"bufferView": "Mesh_103_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				3.48075,
+				0.61235,
+				0.344427
+			],
+			"min": [
+				0.0344389,
+				-0.285342,
+				0.0805779
+			],
+			"name": "Mesh_103_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_69_Normals": {
+			"bufferView": "Mesh_69_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 3511,
+			"max": [
+				1,
+				1,
+				1
+			],
+			"min": [
+				-1,
+				-1,
+				-1
+			],
+			"name": "Mesh_69_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_69_Polygons": {
+			"bufferView": "Mesh_69_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 7188,
+			"name": "Mesh_69_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_69_Positions": {
+			"bufferView": "Mesh_69_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 3511,
+			"max": [
+				0.335858,
+				0.335394,
+				0.427241
+			],
+			"min": [
+				-0.337717,
+				-0.338181,
+				-0.117038
+			],
+			"name": "Mesh_69_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_71_Normals": {
+			"bufferView": "Mesh_71_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				0.463133,
+				0.987738,
+				0.99992
+			],
+			"min": [
+				-0.738073,
+				-0.607685,
+				-0.99997
+			],
+			"name": "Mesh_71_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_71_Polygons": {
+			"bufferView": "Mesh_71_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 3840,
+			"name": "Mesh_71_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_71_Positions": {
+			"bufferView": "Mesh_71_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				3.48075,
+				0.61235,
+				0.344427
+			],
+			"min": [
+				0.0344389,
+				-0.285342,
+				0.0805779
+			],
+			"name": "Mesh_71_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_73_Normals": {
+			"bufferView": "Mesh_73_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1474,
+			"max": [
+				0.998518,
+				0.998518,
+				1
+			],
+			"min": [
+				-0.998518,
+				-0.998518,
+				-1
+			],
+			"name": "Mesh_73_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_73_Polygons": {
+			"bufferView": "Mesh_73_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 8832,
+			"name": "Mesh_73_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_73_Positions": {
+			"bufferView": "Mesh_73_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1474,
+			"max": [
+				0.189813,
+				0.189813,
+				0.11572
+			],
+			"min": [
+				-0.189813,
+				-0.189813,
+				-0.0962156
+			],
+			"name": "Mesh_73_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_75_Normals": {
+			"bufferView": "Mesh_75_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				0.463133,
+				0.987738,
+				0.99992
+			],
+			"min": [
+				-0.738073,
+				-0.607685,
+				-0.99997
+			],
+			"name": "Mesh_75_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_75_Polygons": {
+			"bufferView": "Mesh_75_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 3840,
+			"name": "Mesh_75_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_75_Positions": {
+			"bufferView": "Mesh_75_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				3.48075,
+				0.61235,
+				0.344427
+			],
+			"min": [
+				0.0344389,
+				-0.285342,
+				0.0805779
+			],
+			"name": "Mesh_75_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_77_Normals": {
+			"bufferView": "Mesh_77_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				0.463133,
+				0.987738,
+				0.99992
+			],
+			"min": [
+				-0.738073,
+				-0.607685,
+				-0.99997
+			],
+			"name": "Mesh_77_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_77_Polygons": {
+			"bufferView": "Mesh_77_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 3840,
+			"name": "Mesh_77_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_77_Positions": {
+			"bufferView": "Mesh_77_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				3.48075,
+				0.61235,
+				0.344427
+			],
+			"min": [
+				0.0344389,
+				-0.285342,
+				0.0805779
+			],
+			"name": "Mesh_77_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_79_Normals": {
+			"bufferView": "Mesh_79_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1474,
+			"max": [
+				0.998518,
+				0.998518,
+				1
+			],
+			"min": [
+				-0.998518,
+				-0.998518,
+				-1
+			],
+			"name": "Mesh_79_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_79_Polygons": {
+			"bufferView": "Mesh_79_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 8832,
+			"name": "Mesh_79_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_79_Positions": {
+			"bufferView": "Mesh_79_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1474,
+			"max": [
+				0.189813,
+				0.189813,
+				0.11572
+			],
+			"min": [
+				-0.189813,
+				-0.189813,
+				-0.0962156
+			],
+			"name": "Mesh_79_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_81_Normals": {
+			"bufferView": "Mesh_81_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 3511,
+			"max": [
+				1,
+				1,
+				1
+			],
+			"min": [
+				-1,
+				-1,
+				-1
+			],
+			"name": "Mesh_81_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_81_Polygons": {
+			"bufferView": "Mesh_81_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 7188,
+			"name": "Mesh_81_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_81_Positions": {
+			"bufferView": "Mesh_81_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 3511,
+			"max": [
+				0.335858,
+				0.335394,
+				0.427241
+			],
+			"min": [
+				-0.337717,
+				-0.338181,
+				-0.117038
+			],
+			"name": "Mesh_81_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_83_Normals": {
+			"bufferView": "Mesh_83_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				0.463133,
+				0.987738,
+				0.99992
+			],
+			"min": [
+				-0.738073,
+				-0.607685,
+				-0.99997
+			],
+			"name": "Mesh_83_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_83_Polygons": {
+			"bufferView": "Mesh_83_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 3840,
+			"name": "Mesh_83_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_83_Positions": {
+			"bufferView": "Mesh_83_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				3.48075,
+				0.61235,
+				0.344427
+			],
+			"min": [
+				0.0344389,
+				-0.285342,
+				0.0805779
+			],
+			"name": "Mesh_83_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_85_Normals": {
+			"bufferView": "Mesh_85_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				0.463133,
+				0.987738,
+				0.99992
+			],
+			"min": [
+				-0.738073,
+				-0.607685,
+				-0.99997
+			],
+			"name": "Mesh_85_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_85_Polygons": {
+			"bufferView": "Mesh_85_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 3840,
+			"name": "Mesh_85_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_85_Positions": {
+			"bufferView": "Mesh_85_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				3.48075,
+				0.61235,
+				0.344427
+			],
+			"min": [
+				0.0344389,
+				-0.285342,
+				0.0805779
+			],
+			"name": "Mesh_85_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_87_Normals": {
+			"bufferView": "Mesh_87_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 3511,
+			"max": [
+				1,
+				1,
+				1
+			],
+			"min": [
+				-1,
+				-1,
+				-1
+			],
+			"name": "Mesh_87_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_87_Polygons": {
+			"bufferView": "Mesh_87_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 7188,
+			"name": "Mesh_87_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_87_Positions": {
+			"bufferView": "Mesh_87_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 3511,
+			"max": [
+				0.335858,
+				0.335394,
+				0.427241
+			],
+			"min": [
+				-0.337717,
+				-0.338181,
+				-0.117038
+			],
+			"name": "Mesh_87_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_89_Normals": {
+			"bufferView": "Mesh_89_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1474,
+			"max": [
+				0.999996,
+				0.999996,
+				1
+			],
+			"min": [
+				-0.999996,
+				-0.999996,
+				-0.99999
+			],
+			"name": "Mesh_89_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_89_Polygons": {
+			"bufferView": "Mesh_89_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 8832,
+			"name": "Mesh_89_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_89_Positions": {
+			"bufferView": "Mesh_89_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1474,
+			"max": [
+				0.187447,
+				0.187451,
+				0.113529
+			],
+			"min": [
+				-0.187448,
+				-0.187447,
+				-0.0933928
+			],
+			"name": "Mesh_89_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_91_Normals": {
+			"bufferView": "Mesh_91_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				0.463133,
+				0.987738,
+				0.99992
+			],
+			"min": [
+				-0.738073,
+				-0.607685,
+				-0.99997
+			],
+			"name": "Mesh_91_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_91_Polygons": {
+			"bufferView": "Mesh_91_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 3840,
+			"name": "Mesh_91_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_91_Positions": {
+			"bufferView": "Mesh_91_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				3.48075,
+				0.61235,
+				0.344427
+			],
+			"min": [
+				0.0344389,
+				-0.285342,
+				0.0805779
+			],
+			"name": "Mesh_91_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_93_Normals": {
+			"bufferView": "Mesh_93_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				0.463133,
+				0.987738,
+				0.99992
+			],
+			"min": [
+				-0.738073,
+				-0.607685,
+				-0.99997
+			],
+			"name": "Mesh_93_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_93_Polygons": {
+			"bufferView": "Mesh_93_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 3840,
+			"name": "Mesh_93_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_93_Positions": {
+			"bufferView": "Mesh_93_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2560,
+			"max": [
+				3.48075,
+				0.61235,
+				0.344427
+			],
+			"min": [
+				0.0344389,
+				-0.285342,
+				0.0805779
+			],
+			"name": "Mesh_93_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_95_Normals": {
+			"bufferView": "Mesh_95_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 706,
+			"max": [
+				0.997043,
+				0.997043,
+				1
+			],
+			"min": [
+				-0.997043,
+				-0.997043,
+				-1
+			],
+			"name": "Mesh_95_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_95_Polygons": {
+			"bufferView": "Mesh_95_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 4224,
+			"name": "Mesh_95_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_95_Positions": {
+			"bufferView": "Mesh_95_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 706,
+			"max": [
+				0.189813,
+				0.189813,
+				0.11572
+			],
+			"min": [
+				-0.189813,
+				-0.189813,
+				-0.0962156
+			],
+			"name": "Mesh_95_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_97_Normals": {
+			"bufferView": "Mesh_97_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 3511,
+			"max": [
+				1,
+				1,
+				1
+			],
+			"min": [
+				-1,
+				-1,
+				-1
+			],
+			"name": "Mesh_97_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_97_Polygons": {
+			"bufferView": "Mesh_97_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 7188,
+			"name": "Mesh_97_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_97_Positions": {
+			"bufferView": "Mesh_97_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 3511,
+			"max": [
+				0.335858,
+				0.335394,
+				0.427241
+			],
+			"min": [
+				-0.337717,
+				-0.338181,
+				-0.117038
+			],
+			"name": "Mesh_97_Positions",
+			"type": "VEC3"
+		},
+		"Mesh_99_Colors0": {
+			"bufferView": "Mesh_99_Colors0_Buffer",
+			"byteOffset": 0,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 34096,
+			"max": [
+				1,
+				1,
+				1,
+				1
+			],
+			"min": [
+				0,
+				0,
+				0,
+				0
+			],
+			"name": "Mesh_99_Colors0",
+			"type": "VEC4"
+		},
+		"Mesh_99_Normals": {
+			"bufferView": "Mesh_99_Normals_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 17048,
+			"max": [
+				1,
+				0.999999,
+				0.999083
+			],
+			"min": [
+				-0.99735,
+				-0.999998,
+				-0.999083
+			],
+			"name": "Mesh_99_Normals",
+			"type": "VEC3"
+		},
+		"Mesh_99_Polygons": {
+			"bufferView": "Mesh_99_Polygons_Buffer",
+			"byteOffset": 0,
+			"byteStride": 2,
+			"componentType": 5123,
+			"count": 101934,
+			"name": "Mesh_99_Polygons",
+			"type": "SCALAR"
+		},
+		"Mesh_99_Positions": {
+			"bufferView": "Mesh_99_Positions_Buffer",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 17048,
+			"max": [
+				228.968,
+				82.3363,
+				269.646
+			],
+			"min": [
+				-145.128,
+				3.79224,
+				-102.813
+			],
+			"name": "Mesh_99_Positions",
+			"type": "VEC3"
+		}
+	},
+	"animations": {
+	},
+	"asset": {
+		"copyright": "",
+		"generator": "FBX GLTF Exporter v1.0",
+		"premultipliedAlpha": 0,
+		"profile": {
+			"api": "WebGL",
+			"version": "1.0.3"
+		},
+		"version": "1.0"
+	},
+	"bufferViews": {
+		"Mesh_101_Colors0_Buffer": {
+			"buffer": "drone",
+			"byteLength": 8352,
+			"byteOffset": 2227732,
+			"name": "Mesh_101_Colors0_Buffer",
+			"target": 34962
+		},
+		"Mesh_101_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 3132,
+			"byteOffset": 2224600,
+			"name": "Mesh_101_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_101_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 2484,
+			"byteOffset": 2236084,
+			"name": "Mesh_101_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_101_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 3132,
+			"byteOffset": 2221468,
+			"name": "Mesh_101_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_103_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 2269288,
+			"name": "Mesh_103_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_103_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 7680,
+			"byteOffset": 2300008,
+			"name": "Mesh_103_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_103_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 2238568,
+			"name": "Mesh_103_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_69_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 42132,
+			"byteOffset": 42132,
+			"name": "Mesh_69_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_69_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 14376,
+			"byteOffset": 84264,
+			"name": "Mesh_69_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_69_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 42132,
+			"byteOffset": 0,
+			"name": "Mesh_69_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_71_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 129360,
+			"name": "Mesh_71_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_71_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 7680,
+			"byteOffset": 160080,
+			"name": "Mesh_71_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_71_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 98640,
+			"name": "Mesh_71_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_73_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 17688,
+			"byteOffset": 185448,
+			"name": "Mesh_73_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_73_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 17664,
+			"byteOffset": 203136,
+			"name": "Mesh_73_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_73_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 17688,
+			"byteOffset": 167760,
+			"name": "Mesh_73_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_75_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 251520,
+			"name": "Mesh_75_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_75_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 7680,
+			"byteOffset": 282240,
+			"name": "Mesh_75_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_75_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 220800,
+			"name": "Mesh_75_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_77_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 320640,
+			"name": "Mesh_77_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_77_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 7680,
+			"byteOffset": 351360,
+			"name": "Mesh_77_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_77_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 289920,
+			"name": "Mesh_77_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_79_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 17688,
+			"byteOffset": 376728,
+			"name": "Mesh_79_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_79_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 17664,
+			"byteOffset": 394416,
+			"name": "Mesh_79_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_79_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 17688,
+			"byteOffset": 359040,
+			"name": "Mesh_79_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_81_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 42132,
+			"byteOffset": 454212,
+			"name": "Mesh_81_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_81_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 14376,
+			"byteOffset": 496344,
+			"name": "Mesh_81_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_81_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 42132,
+			"byteOffset": 412080,
+			"name": "Mesh_81_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_83_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 541440,
+			"name": "Mesh_83_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_83_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 7680,
+			"byteOffset": 572160,
+			"name": "Mesh_83_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_83_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 510720,
+			"name": "Mesh_83_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_85_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 610560,
+			"name": "Mesh_85_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_85_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 7680,
+			"byteOffset": 641280,
+			"name": "Mesh_85_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_85_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 579840,
+			"name": "Mesh_85_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_87_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 42132,
+			"byteOffset": 691092,
+			"name": "Mesh_87_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_87_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 14376,
+			"byteOffset": 733224,
+			"name": "Mesh_87_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_87_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 42132,
+			"byteOffset": 648960,
+			"name": "Mesh_87_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_89_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 17688,
+			"byteOffset": 765288,
+			"name": "Mesh_89_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_89_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 17664,
+			"byteOffset": 782976,
+			"name": "Mesh_89_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_89_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 17688,
+			"byteOffset": 747600,
+			"name": "Mesh_89_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_91_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 831360,
+			"name": "Mesh_91_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_91_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 7680,
+			"byteOffset": 862080,
+			"name": "Mesh_91_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_91_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 800640,
+			"name": "Mesh_91_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_93_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 900480,
+			"name": "Mesh_93_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_93_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 7680,
+			"byteOffset": 931200,
+			"name": "Mesh_93_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_93_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 30720,
+			"byteOffset": 869760,
+			"name": "Mesh_93_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_95_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 8472,
+			"byteOffset": 947352,
+			"name": "Mesh_95_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_95_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 8448,
+			"byteOffset": 955824,
+			"name": "Mesh_95_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_95_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 8472,
+			"byteOffset": 938880,
+			"name": "Mesh_95_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_97_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 42132,
+			"byteOffset": 1006404,
+			"name": "Mesh_97_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_97_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 14376,
+			"byteOffset": 1048536,
+			"name": "Mesh_97_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_97_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 42132,
+			"byteOffset": 964272,
+			"name": "Mesh_97_Positions_Buffer",
+			"target": 34962
+		},
+		"Mesh_99_Colors0_Buffer": {
+			"buffer": "drone",
+			"byteLength": 545536,
+			"byteOffset": 1472064,
+			"name": "Mesh_99_Colors0_Buffer",
+			"target": 34962
+		},
+		"Mesh_99_Normals_Buffer": {
+			"buffer": "drone",
+			"byteLength": 204576,
+			"byteOffset": 1267488,
+			"name": "Mesh_99_Normals_Buffer",
+			"target": 34962
+		},
+		"Mesh_99_Polygons_Buffer": {
+			"buffer": "drone",
+			"byteLength": 203868,
+			"byteOffset": 2017600,
+			"name": "Mesh_99_Polygons_Buffer",
+			"target": 34963
+		},
+		"Mesh_99_Positions_Buffer": {
+			"buffer": "drone",
+			"byteLength": 204576,
+			"byteOffset": 1062912,
+			"name": "Mesh_99_Positions_Buffer",
+			"target": 34962
+		}
+	},
+	"buffers": {
+		"drone": {
+			"byteLength": 2307688,
+			"name": "drone",
+			"type": "arraybuffer",
+			"uri": "drone.bin"
+		}
+	},
+	"cameras": {
+	},
+	"images": {
+	},
+	"lights": {
+	},
+	"materials": {
+		"black": {
+			"name": "black",
+			"technique": "black_technique_0",
+			"values": {
+				"ambient": [
+					0.2,
+					0.2,
+					0.2,
+					1
+				],
+				"diffuse": [
+					0,
+					0,
+					0,
+					1
+				],
+				"emission": [
+					0,
+					0,
+					0,
+					1
+				],
+				"reflective": [
+					0,
+					0,
+					0,
+					1
+				],
+				"reflectivity": 1,
+				"shininess": 20,
+				"specular": [
+					0.2,
+					0.2,
+					0.2,
+					1
+				],
+				"transparency": 1,
+				"transparent": [
+					0,
+					0,
+					0,
+					1
+				]
+			}
+		},
+		"white": {
+			"name": "white",
+			"technique": "white_technique_0",
+			"values": {
+				"ambient": [
+					0.2,
+					0.2,
+					0.2,
+					1
+				],
+				"diffuse": [
+					0.8,
+					0.8,
+					0.8,
+					1
+				],
+				"emission": [
+					0,
+					0,
+					0,
+					1
+				],
+				"reflective": [
+					0,
+					0,
+					0,
+					1
+				],
+				"reflectivity": 1,
+				"shininess": 20,
+				"specular": [
+					0.2,
+					0.2,
+					0.2,
+					1
+				],
+				"transparency": 1,
+				"transparent": [
+					0,
+					0,
+					0,
+					1
+				]
+			}
+		}
+	},
+	"meshes": {
+		"Mesh_101": {
+			"name": "Mesh_101",
+			"primitives": [
+				{
+					"attributes": {
+						"COLOR_0": "Mesh_101_Colors0",
+						"NORMAL": "Mesh_101_Normals",
+						"POSITION": "Mesh_101_Positions"
+					},
+					"indices": "Mesh_101_Polygons",
+					"material": "black",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_103": {
+			"name": "Mesh_103",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_103_Normals",
+						"POSITION": "Mesh_103_Positions"
+					},
+					"indices": "Mesh_103_Polygons",
+					"material": "black",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_69": {
+			"name": "Mesh_69",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_69_Normals",
+						"POSITION": "Mesh_69_Positions"
+					},
+					"indices": "Mesh_69_Polygons",
+					"material": "white",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_71": {
+			"name": "Mesh_71",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_71_Normals",
+						"POSITION": "Mesh_71_Positions"
+					},
+					"indices": "Mesh_71_Polygons",
+					"material": "black",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_73": {
+			"name": "Mesh_73",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_73_Normals",
+						"POSITION": "Mesh_73_Positions"
+					},
+					"indices": "Mesh_73_Polygons",
+					"material": "white",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_75": {
+			"name": "Mesh_75",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_75_Normals",
+						"POSITION": "Mesh_75_Positions"
+					},
+					"indices": "Mesh_75_Polygons",
+					"material": "black",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_77": {
+			"name": "Mesh_77",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_77_Normals",
+						"POSITION": "Mesh_77_Positions"
+					},
+					"indices": "Mesh_77_Polygons",
+					"material": "black",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_79": {
+			"name": "Mesh_79",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_79_Normals",
+						"POSITION": "Mesh_79_Positions"
+					},
+					"indices": "Mesh_79_Polygons",
+					"material": "white",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_81": {
+			"name": "Mesh_81",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_81_Normals",
+						"POSITION": "Mesh_81_Positions"
+					},
+					"indices": "Mesh_81_Polygons",
+					"material": "white",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_83": {
+			"name": "Mesh_83",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_83_Normals",
+						"POSITION": "Mesh_83_Positions"
+					},
+					"indices": "Mesh_83_Polygons",
+					"material": "black",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_85": {
+			"name": "Mesh_85",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_85_Normals",
+						"POSITION": "Mesh_85_Positions"
+					},
+					"indices": "Mesh_85_Polygons",
+					"material": "black",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_87": {
+			"name": "Mesh_87",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_87_Normals",
+						"POSITION": "Mesh_87_Positions"
+					},
+					"indices": "Mesh_87_Polygons",
+					"material": "white",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_89": {
+			"name": "Mesh_89",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_89_Normals",
+						"POSITION": "Mesh_89_Positions"
+					},
+					"indices": "Mesh_89_Polygons",
+					"material": "white",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_91": {
+			"name": "Mesh_91",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_91_Normals",
+						"POSITION": "Mesh_91_Positions"
+					},
+					"indices": "Mesh_91_Polygons",
+					"material": "black",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_93": {
+			"name": "Mesh_93",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_93_Normals",
+						"POSITION": "Mesh_93_Positions"
+					},
+					"indices": "Mesh_93_Polygons",
+					"material": "black",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_95": {
+			"name": "Mesh_95",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_95_Normals",
+						"POSITION": "Mesh_95_Positions"
+					},
+					"indices": "Mesh_95_Polygons",
+					"material": "white",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_97": {
+			"name": "Mesh_97",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": "Mesh_97_Normals",
+						"POSITION": "Mesh_97_Positions"
+					},
+					"indices": "Mesh_97_Polygons",
+					"material": "white",
+					"mode": 4
+				}
+			]
+		},
+		"Mesh_99": {
+			"name": "Mesh_99",
+			"primitives": [
+				{
+					"attributes": {
+						"COLOR_0": "Mesh_99_Colors0",
+						"NORMAL": "Mesh_99_Normals",
+						"POSITION": "Mesh_99_Positions"
+					},
+					"indices": "Mesh_99_Polygons",
+					"material": "white",
+					"mode": 4
+				}
+			]
+		}
+	},
+	"nodes": {
+		"RootNode_10": {
+			"children": [
+				"SurfCircle.004_44",
+				"Sphere.011_45",
+				"Sphere.010_46",
+				"Sphere.009_47",
+				"Sphere.008_48",
+				"Sphere.007_49",
+				"SurfCircle.002_50",
+				"Sphere.006_51",
+				"Sphere.005_52",
+				"SurfCircle.001_53",
+				"Sphere.004_54",
+				"Sphere.003_55",
+				"Sphere.002_56",
+				"Sphere_57",
+				"SurfCircle_58",
+				"polySurface10_59",
+				"Z Function.001_60",
+				"Sphere.001_64"
+			],
+			"matrix": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"name": "RootNode_10"
+		},
+		"Sphere.001_64": {
+			"children": [
+			],
+			"matrix": [
+				-0.406427,
+				0.0169469,
+				0.158268,
+				0,
+				-0.158393,
+				-0.000132443,
+				-0.406732,
+				0,
+				-0.0157437,
+				-0.436155,
+				0.00627307,
+				0,
+				-1.38937,
+				0.641603,
+				-1.00858,
+				1
+			],
+			"meshes": [
+				"Mesh_103"
+			],
+			"name": "Sphere.001_64"
+		},
+		"Sphere.002_56": {
+			"children": [
+			],
+			"matrix": [
+				0.406427,
+				-0.0169469,
+				-0.158268,
+				0,
+				0.158393,
+				0.000131874,
+				0.406732,
+				0,
+				0.0157439,
+				0.436155,
+				-0.00627254,
+				0,
+				-1.42037,
+				0.537439,
+				-1.01019,
+				1
+			],
+			"meshes": [
+				"Mesh_93"
+			],
+			"name": "Sphere.002_56"
+		},
+		"Sphere.003_55": {
+			"children": [
+			],
+			"matrix": [
+				0.283399,
+				-0.0169468,
+				0.331537,
+				0,
+				-0.331783,
+				0.000131988,
+				0.283617,
+				0,
+				0.0111119,
+				0.436155,
+				0.012796,
+				0,
+				-1.42709,
+				0.551531,
+				2.62513,
+				1
+			],
+			"meshes": [
+				"Mesh_91"
+			],
+			"name": "Sphere.003_55"
+		},
+		"Sphere.004_54": {
+			"children": [
+			],
+			"matrix": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				-1.62921e-007,
+				-1,
+				0,
+				0,
+				1,
+				-1.62921e-007,
+				0,
+				-1.42405,
+				0.108655,
+				2.63776,
+				1
+			],
+			"meshes": [
+				"Mesh_89"
+			],
+			"name": "Sphere.004_54"
+		},
+		"Sphere.005_52": {
+			"children": [
+			],
+			"matrix": [
+				-0.283399,
+				0.0169468,
+				-0.331537,
+				0,
+				0.331783,
+				-0.000132268,
+				-0.283617,
+				0,
+				-0.0111121,
+				-0.436155,
+				-0.0127958,
+				0,
+				-1.41838,
+				0.641603,
+				2.65493,
+				1
+			],
+			"meshes": [
+				"Mesh_85"
+			],
+			"name": "Sphere.005_52"
+		},
+		"Sphere.006_51": {
+			"children": [
+			],
+			"matrix": [
+				0.435622,
+				0.0169471,
+				-0.0215688,
+				0,
+				0.0215902,
+				-0.000132175,
+				0.43595,
+				0,
+				0.0169199,
+				-0.436155,
+				-0.000970184,
+				0,
+				2.23902,
+				0.661355,
+				2.66543,
+				1
+			],
+			"meshes": [
+				"Mesh_83"
+			],
+			"name": "Sphere.006_51"
+		},
+		"Sphere.007_49": {
+			"children": [
+			],
+			"matrix": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				-1.62921e-007,
+				-1,
+				0,
+				0,
+				1,
+				-1.62921e-007,
+				0,
+				2.25216,
+				0.128408,
+				2.66883,
+				1
+			],
+			"meshes": [
+				"Mesh_79"
+			],
+			"name": "Sphere.007_49"
+		},
+		"Sphere.008_48": {
+			"children": [
+			],
+			"matrix": [
+				-0.435622,
+				-0.0169471,
+				0.0215688,
+				0,
+				-0.0215902,
+				0.000132331,
+				-0.43595,
+				0,
+				-0.0169199,
+				0.436155,
+				0.00097034,
+				0,
+				2.26792,
+				0.571283,
+				2.67676,
+				1
+			],
+			"meshes": [
+				"Mesh_77"
+			],
+			"name": "Sphere.008_48"
+		},
+		"Sphere.009_47": {
+			"children": [
+			],
+			"matrix": [
+				0.274595,
+				-0.0169468,
+				0.338864,
+				0,
+				-0.339117,
+				0.000131946,
+				0.274806,
+				0,
+				0.010772,
+				0.436155,
+				0.0130834,
+				0,
+				2.24977,
+				0.571284,
+				-1.06296,
+				1
+			],
+			"meshes": [
+				"Mesh_75"
+			],
+			"name": "Sphere.009_47"
+		},
+		"Sphere.010_46": {
+			"children": [
+			],
+			"matrix": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				-1.62921e-007,
+				-1,
+				0,
+				0,
+				1,
+				-1.62921e-007,
+				0,
+				2.25241,
+				0.128408,
+				-1.05022,
+				1
+			],
+			"meshes": [
+				"Mesh_73"
+			],
+			"name": "Sphere.010_46"
+		},
+		"Sphere.011_45": {
+			"children": [
+			],
+			"matrix": [
+				-0.274595,
+				0.0169468,
+				-0.338864,
+				0,
+				0.339117,
+				-0.000132278,
+				-0.274807,
+				0,
+				-0.0107722,
+				-0.436155,
+				-0.0130832,
+				0,
+				2.25768,
+				0.661356,
+				-1.03294,
+				1
+			],
+			"meshes": [
+				"Mesh_71"
+			],
+			"name": "Sphere.011_45"
+		},
+		"Sphere_57": {
+			"children": [
+			],
+			"matrix": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				-1.62921e-007,
+				-1,
+				0,
+				0,
+				1,
+				-1.62921e-007,
+				0,
+				-1.40618,
+				0.108656,
+				-1.01165,
+				1
+			],
+			"meshes": [
+				"Mesh_95"
+			],
+			"name": "Sphere_57"
+		},
+		"SurfCircle.001_53": {
+			"children": [
+			],
+			"matrix": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				-1.62921e-007,
+				-1,
+				0,
+				0,
+				1,
+				-1.62921e-007,
+				0,
+				-1.42019,
+				0.331921,
+				2.6429,
+				1
+			],
+			"meshes": [
+				"Mesh_87"
+			],
+			"name": "SurfCircle.001_53"
+		},
+		"SurfCircle.002_50": {
+			"children": [
+			],
+			"matrix": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				-1.62921e-007,
+				-1,
+				0,
+				0,
+				1,
+				-1.62921e-007,
+				0,
+				2.25601,
+				0.351674,
+				2.67397,
+				1
+			],
+			"meshes": [
+				"Mesh_81"
+			],
+			"name": "SurfCircle.002_50"
+		},
+		"SurfCircle.004_44": {
+			"children": [
+			],
+			"matrix": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				-1.62921e-007,
+				-1,
+				0,
+				0,
+				1,
+				-1.62921e-007,
+				0,
+				2.25601,
+				0.351674,
+				-1.03858,
+				1
+			],
+			"meshes": [
+				"Mesh_69"
+			],
+			"name": "SurfCircle.004_44"
+		},
+		"SurfCircle_58": {
+			"children": [
+			],
+			"matrix": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				-1.62921e-007,
+				-1,
+				0,
+				0,
+				1,
+				-1.62921e-007,
+				0,
+				-1.40233,
+				0.331922,
+				-1.00651,
+				1
+			],
+			"meshes": [
+				"Mesh_97"
+			],
+			"name": "SurfCircle_58"
+		},
+		"Z Function.001_60": {
+			"children": [
+				"polySurface2_61"
+			],
+			"matrix": [
+				7.18281e-008,
+				0,
+				-0.228813,
+				0,
+				2.73002e-008,
+				-0.180801,
+				8.56997e-015,
+				0,
+				-0.180801,
+				-2.73002e-008,
+				-5.67564e-008,
+				0,
+				-0.148554,
+				0.421361,
+				0.834163,
+				1
+			],
+			"name": "Z Function.001_60"
+		},
+		"polySurface10_59": {
+			"children": [
+			],
+			"matrix": [
+				0.01,
+				0,
+				0,
+				0,
+				0,
+				0.01,
+				0,
+				0,
+				0,
+				0,
+				0.01,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"meshes": [
+				"Mesh_99"
+			],
+			"name": "polySurface10_59"
+		},
+		"polySurface2_61": {
+			"children": [
+				"polySurface3_62"
+			],
+			"matrix": [
+				1,
+				-1.26218e-029,
+				0,
+				0,
+				0,
+				1,
+				2.28277e-023,
+				0,
+				5.29396e-023,
+				2.28183e-023,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"name": "polySurface2_61"
+		},
+		"polySurface3_62": {
+			"children": [
+				"polySurface8_63"
+			],
+			"matrix": [
+				1,
+				0,
+				-5.29396e-023,
+				0,
+				-6.31089e-030,
+				1,
+				-3.64207e-024,
+				0,
+				0,
+				2.28183e-023,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"name": "polySurface3_62"
+		},
+		"polySurface8_63": {
+			"children": [
+			],
+			"matrix": [
+				1,
+				1.26218e-029,
+				-5.29396e-023,
+				0,
+				6.31089e-030,
+				1,
+				-3.64207e-024,
+				0,
+				0,
+				2.28183e-023,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"meshes": [
+				"Mesh_101"
+			],
+			"name": "polySurface8_63"
+		}
+	},
+	"programs": {
+		"program_0": {
+			"attributes": [
+				"a_normal",
+				"a_position"
+			],
+			"fragmentShader": "program_0FS",
+			"name": "program_0",
+			"vertexShader": "program_0VS"
+		},
+		"program_1": {
+			"attributes": [
+				"a_normal",
+				"a_position"
+			],
+			"fragmentShader": "program_1FS",
+			"name": "program_1",
+			"vertexShader": "program_1VS"
+		}
+	},
+	"samplers": {
+	},
+	"scene": "drone",
+	"scenes": {
+		"drone": {
+			"nodes": [
+				"RootNode_10"
+			]
+		}
+	},
+	"shaders": {
+		"program_0FS": {
+			"type": 35632,
+			"uri": "program_0FS.glsl"
+		},
+		"program_0VS": {
+			"type": 35633,
+			"uri": "program_0VS.glsl"
+		},
+		"program_1FS": {
+			"type": 35632,
+			"uri": "program_1FS.glsl"
+		},
+		"program_1VS": {
+			"type": 35633,
+			"uri": "program_1VS.glsl"
+		}
+	},
+	"skins": {
+	},
+	"techniques": {
+		"black_technique_0": {
+			"attributes": {
+				"a_normal": "normal",
+				"a_position": "position"
+			},
+			"extras": {
+				"doubleSided": 0,
+				"lightingModel": "Phong"
+			},
+			"parameters": {
+				"ambient": {
+					"type": 35666
+				},
+				"diffuse": {
+					"type": 35666
+				},
+				"emission": {
+					"type": 35666
+				},
+				"modelViewMatrix": {
+					"semantic": "MODELVIEW",
+					"type": 35676
+				},
+				"normal": {
+					"semantic": "NORMAL",
+					"type": 35665
+				},
+				"normalMatrix": {
+					"semantic": "MODELVIEWINVERSETRANSPOSE",
+					"type": 35675
+				},
+				"position": {
+					"semantic": "POSITION",
+					"type": 35665
+				},
+				"projectionMatrix": {
+					"semantic": "PROJECTION",
+					"type": 35676
+				},
+				"reflective": {
+					"type": 35666
+				},
+				"reflectivity": {
+					"type": 5126
+				},
+				"shininess": {
+					"type": 5126
+				},
+				"specular": {
+					"type": 35666
+				},
+				"transparency": {
+					"type": 5126
+				},
+				"transparent": {
+					"type": 35666
+				}
+			},
+			"program": "program_1",
+			"states": {
+				"enable": [
+					2884,
+					2929
+				]
+			},
+			"uniforms": {
+				"u_ambient": "ambient",
+				"u_diffuse": "diffuse",
+				"u_emission": "emission",
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_reflective": "reflective",
+				"u_reflectivity": "reflectivity",
+				"u_shininess": "shininess",
+				"u_specular": "specular",
+				"u_transparency": "transparency",
+				"u_transparent": "transparent"
+			}
+		},
+		"white_technique_0": {
+			"attributes": {
+				"a_normal": "normal",
+				"a_position": "position"
+			},
+			"extras": {
+				"doubleSided": 0,
+				"lightingModel": "Phong"
+			},
+			"parameters": {
+				"ambient": {
+					"type": 35666
+				},
+				"diffuse": {
+					"type": 35666
+				},
+				"emission": {
+					"type": 35666
+				},
+				"modelViewMatrix": {
+					"semantic": "MODELVIEW",
+					"type": 35676
+				},
+				"normal": {
+					"semantic": "NORMAL",
+					"type": 35665
+				},
+				"normalMatrix": {
+					"semantic": "MODELVIEWINVERSETRANSPOSE",
+					"type": 35675
+				},
+				"position": {
+					"semantic": "POSITION",
+					"type": 35665
+				},
+				"projectionMatrix": {
+					"semantic": "PROJECTION",
+					"type": 35676
+				},
+				"reflective": {
+					"type": 35666
+				},
+				"reflectivity": {
+					"type": 5126
+				},
+				"shininess": {
+					"type": 5126
+				},
+				"specular": {
+					"type": 35666
+				},
+				"transparency": {
+					"type": 5126
+				},
+				"transparent": {
+					"type": 35666
+				}
+			},
+			"program": "program_0",
+			"states": {
+				"enable": [
+					2884,
+					2929
+				]
+			},
+			"uniforms": {
+				"u_ambient": "ambient",
+				"u_diffuse": "diffuse",
+				"u_emission": "emission",
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_reflective": "reflective",
+				"u_reflectivity": "reflectivity",
+				"u_shininess": "shininess",
+				"u_specular": "specular",
+				"u_transparency": "transparency",
+				"u_transparent": "transparent"
+			}
+		}
+	},
+	"textures": {
+	}
+}

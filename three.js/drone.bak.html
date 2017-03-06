@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>three.js drone test</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <style>
+            body {
+                font-family: Monospace;
+                background-color: #EEF;
+                margin: 0px;
+                overflow: hidden;
+            }
+            #info {
+                position: absolute;
+                top: 10px;
+                width: 100%;
+                text-align: center;
+                z-index: 100;
+                display:block;
+            }
+            
+            #container {
+            	position: absolute;
+            	top: 0px;
+            	width:100%;
+            	height:100%;
+            	z-index: -1;
+            }
+            
+            #rendercontainer {
+            	position: absolute;
+            	top: 0px;
+            	width:100%;
+            	height:100%;
+            	z-index: -1;
+            	background-color:Red;
+            }
+                        
+            #controls {
+            	position:absolute;
+            	width:25%;
+            	left:75%;
+            	bottom:0%;
+            	height:166px;
+            	background-color:White;
+            	opacity:.75;
+            	font: 13px/1.231 "Lucida Grande", Lucida, Verdana, sans-serif;
+            }
+
+            #status {
+            	position:absolute;
+            	width:25%;
+            	left:2%;
+            	top:95%;
+            	height:5%;
+            	opacity:.9;
+            	font: 13px/1.231 "Lucida Grande", Lucida, Verdana, sans-serif;
+            }
+            
+            .control {
+            	position:absolute;
+            	margin-left:12px;
+            	width:100%;
+            	font-weight:bold;
+            }
+                        
+            .controlValue {
+            	position:absolute;
+            	left:40%;
+            	top:0%;
+            }
+            
+            #scenes_control {
+            	position:absolute;
+            	top:8px;
+            }
+
+            #cameras_control {
+            	position:absolute;
+            	top:40px;
+            }
+
+            #animations_control {
+            	position:absolute;
+            	top:72px;
+            }
+
+            #buffer_geometry_control {
+            	position:absolute;
+            	top:104px;
+            }
+
+            #materials_extension_control {
+                position:absolute;
+                top:136px;
+            }
+
+
+            #uris_control {
+                position:absolute;
+                top:166px;
+            }
+
+            #info a, .button { color: #f00; font-weight: bold; text-decoration: underline; cursor: pointer }
+        </style>
+    </head>
+
+    <body>
+        <div id="info">
+        <a href="http://github.com/mrdoob/three.js" target="_blank">three.js</a> - Drone Test
+        </div>
+		<div id="container">
+		</div>
+		<div id="status">
+		</div>
+        <script src="three.min.js"></script>
+        <script src="controls/OrbitControls.js"></script>
+        <script src="loaders/gltf/glTF-parser.js"></script>
+        <script src="loaders/gltf/glTFLoader.js"></script>
+        <script src="loaders/gltf/glTFLoaderUtils.js"></script>
+        <script src="loaders/gltf/glTFAnimation.js"></script>
+		<script src="loaders/gltf/glTFShaders.js"></script>
+		<script src="loaders/gltf/gltfUtilities.js"></script>
+
+        <script>
+        	var orbitControls = null;
+            var container, camera, scene, renderer, loader;
+
+            var cameraIndex = 0;
+			var cameras = [];
+			var cameraNames = [];
+			var defaultCamera = null;
+			var gltfs = [];
+			
+			function onload() {
+
+				window.addEventListener( 'resize', onWindowResize, false );
+            	document.addEventListener( 'keypress', 
+            			function(e) { onKeyPress(e); }, false );
+
+                initScene();
+                animate();
+            }
+
+            function addLights(shadows) {
+                var ambient = new THREE.AmbientLight( 0x222222 );
+                scene.add( ambient );
+
+                var directionalLight = new THREE.DirectionalLight( 0xdddddd );
+                directionalLight.position.set( 0, 0, 1 ).normalize();
+                scene.add( directionalLight );
+                
+	            var spot1   = new THREE.SpotLight( 0xffffff, 1 );
+	            spot1.position.set( 100, 200, 100 );
+	            spot1.target.position.set( 0, 0, 0 );
+
+	            if (shadows) {
+		                
+		            spot1.shadowCameraNear      = 1;
+		            spot1.shadowCameraFar      = 1024;
+		            spot1.castShadow            = true;
+		            spot1.shadowDarkness        = 0.3;
+		            spot1.shadowBias = 0.0001;
+		            spot1.shadowMapWidth = 2048;
+		            spot1.shadowMapHeight = 2048;
+	            }
+	            scene.add( spot1 );
+                return spot1;
+            }
+
+            function onModelLoad(data) {
+
+                gltfs.push(data.scene);
+                    
+                    
+                scene.add( data.scene );
+                onWindowResize();
+            }
+
+            function initScene() {
+                container = document.getElementById( 'container' );
+
+                scene = new THREE.Scene();
+
+                defaultCamera = new THREE.PerspectiveCamera( 45, container.offsetWidth / container.offsetHeight, 1, 20000 );
+                
+                //defaultCamera.up = new THREE.Vector3( 0, 1, 0 );
+                scene.add( defaultCamera );
+                camera = defaultCamera;
+
+                var shadows = true;
+			    var spot1 = addLights(shadows);	
+
+                renderer = new THREE.WebGLRenderer({antialias:true});
+                renderer.setSize( container.offsetWidth, container.offsetHeight );
+
+                if (shadows) {
+	                renderer.shadowMap.enabled = true;
+	                renderer.shadowMap.soft = true;
+	        		renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+                }
+                container.appendChild( renderer.domElement );
+
+                defaultCamera.position = new THREE.Vector3(0, 10, 5); 
+                if (spot1) {
+	    	        spot1.position.set(0, 200, 0 );
+    	            spot1.target.position = THREE.Vector3(0, 0, 0);
+                }
+
+                var bGround = true;
+                var ground = null;
+				if (bGround) {
+	                var groundMaterial = new THREE.MeshPhongMaterial({
+	                        color: 0xFFFFFF,
+	                        shading: THREE.SmoothShading,
+	                    });
+	                ground = new THREE.Mesh( new THREE.PlaneBufferGeometry(1024, 1024), groundMaterial);
+
+	                if (shadows) {
+		                ground.receiveShadow = true;
+	                }
+
+		            ground.position = new THREE.Vector3(0, 0, 0);
+	                ground.rotation.x = -Math.PI / 2;
+	                scene.add(ground);
+				}
+				
+                //loader = new THREE.glTFLoader;
+                //var status = document.getElementById("status");
+                //status.innerHTML = "Loading...";
+                //loader.load( "./models/drone_animated/dronebody.gltf", onModelLoad);
+                //loader.load( "./models/drone_animated/propeller.gltf", onModelLoad);
+
+        		orbitControls = new THREE.OrbitControls(defaultCamera, renderer.domElement);
+            }
+
+			function onWindowResize() {
+
+				defaultCamera.aspect = container.offsetWidth / container.offsetHeight;
+				defaultCamera.updateProjectionMatrix();
+				
+				var i, len = cameras.length;
+				for (i = 0; i < len; i++) // just do it for default
+				{
+					cameras[i].aspect = container.offsetWidth / container.offsetHeight;
+					cameras[i].updateProjectionMatrix();
+				}
+				
+				renderer.setSize( container.offsetWidth, container.offsetHeight );
+
+			}
+
+            function animate() {
+                requestAnimationFrame( animate );
+                THREE.glTFAnimator.update();
+                THREE.glTFShaders.update(scene, camera);
+                if (cameraIndex == 0)
+                    orbitControls.update();
+                render();
+            }
+
+            function render() {
+                renderer.render( scene, camera );
+            }
+
+            
+			function onKeyPress(event) {
+				var chr = String.fromCharCode(event.keyCode);
+			}
+
+            onload();
+        </script>
+
+    </body>
+</html>
